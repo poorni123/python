@@ -1,7 +1,7 @@
 for num in range(100,200):
-    for i in range(2,num):
+    c=0
+    for i in range(1,200+1):
         if (num%i==0):
-            break
-        else:
-            print(num)
-            break
+            c=c+1
+    if(c==2):
+ 	print num
