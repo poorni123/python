@@ -1,4 +1,4 @@
-a="poornima kumar"
+a=str(input())
 s=a.split(" ")
 l=len(s)
 for i in range(0,l):
