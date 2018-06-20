@@ -1,11 +1,15 @@
 s=str(input())
-l=" "
+l=[]
 l=s.split()
-print(l)
+a=[]
 for i in range(0,len(l)):
- a=l[i].capitalize()
- c=[]
- g=" "
+ a.append(l[i].capitalize())
+print(a)
+g=""
+v=0
 for i in range(0,len(l)):
-	c=l[i]+g+l[i+1]
-	print(c)
+	g=g+a[i]
+	if(v<len(a)-1):
+		g=g+" "
+		v+=1
+print(g)
