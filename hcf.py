@@ -1,4 +1,4 @@
-ef HCF(x, y):
+def HCF(x, y):
 	c=1
 	if(x>y):
 		s=x
@@ -8,6 +8,8 @@ ef HCF(x, y):
 	       if(x%c==0 and y%c==0):
 	           print(c)
 	       c+=1
-num1 = int(input())
-num2 = int(input())
+s=str(input())
+l=s.split(" ")
+num1 = int(l[0])
+num2 = int(l[1])
 HCF(num1, num2)
