@@ -5,9 +5,9 @@ using namespace std;
 int main() {
 	string s,s1,s2;
 	cin>>s;
-	for(int i=0;i<strlen(s);i++)
+	for(int i=0;i<s.length();i++)
 	{
-	if(s[i]=="a"||s[i]=="e"||s[i]=="i"||s[i]=="o")
+	if(s[i]=='a'||s[i]=='e'||s[i]=='i'||s[i]=='o'||s[i]=='u')
 	{
 		s1=s1+s[i];
 	}
