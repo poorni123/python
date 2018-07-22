@@ -35,7 +35,8 @@ int main() {
 	}
 		for(i=0;i<e;i++)
 	{
-	cout<<b[i]<<" ";
+		if(b[i]!=b[i+1])
+			cout<<b[i]<<" ";
 	}
 	
 	return 0;
