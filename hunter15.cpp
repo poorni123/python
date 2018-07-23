@@ -13,10 +13,12 @@ int main() {
 	
 		for(i=0;i<n;i++)
 	{
+			if(a[i]>0)
+	{
 		
 		
 		sum=sum+a[i];
-
+			}
 }
 cout<<sum;
 	return 0;
