@@ -1,6 +1,5 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-
 int main () 
 {
     string s;
@@ -10,10 +9,8 @@ int main ()
     {
     	for(j=0;j<=i;j++)
     	{
-    	sum=sum+s[i];
+    	sum=sum+(s[j]-'0');
     	}
-    	
-    
     }
     	cout<<sum;
 }
